@@ -24,7 +24,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NSString+RENumberFormat.h"
+#import <REFormattedNumberField/NSString+RENumberFormat.h>
+
+//! Project version number for REFormattedNumberField.
+FOUNDATION_EXPORT double REFormattedNumberFieldVersionNumber;
+
+//! Project version string for REFormattedNumberField.
+FOUNDATION_EXPORT const unsigned char REFormattedNumberFieldVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <REFormattedNumberField/PublicHeader.h>
 
 @interface REFormattedNumberField : UITextField
 
